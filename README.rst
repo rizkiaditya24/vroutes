@@ -4,15 +4,7 @@ VRoutes
 A simple implementation of Vehicle Routing Problem based on Google OR-Tools.
 
 To find the best routes, we need to calculate the distances on every possible routes, there are several methods to do that,
-but currently it only supports Google Distance Matrix.
-
-Note that Google Distance Matrix might be expensive
-
-Distance calculation methods:
-
-- Google Distance Matrix
-- Manhattan Distance (Not available)
-- Haversine (Not available)
+but currently it only supports Haversine
 
 
 Installation
