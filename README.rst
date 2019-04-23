@@ -33,7 +33,7 @@ Example
             {'lat': -6.265075, 'lng': 106.782857},  # Pondok indah mall
         ]
     }
-    num_vehicles = 2
-    route = Routes(locations, num_vehicles)
-    res = route.calculate()
-    print(res)
+  num_vehicles = 2
+  route = Routes(locations, num_vehicles)
+  res = route.calculate()
+  print(res)
